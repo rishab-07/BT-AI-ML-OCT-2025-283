@@ -1,0 +1,10 @@
+Logistic Regression metrics (hold-out):
+{'accuracy': 0.8379888268156425, 'roc_auc': 0.8669301712779973, 'report': '              precision    recall  f1-score   support\n\n           0       0.85      0.89      0.87       110\n           1       0.81      0.75      0.78        69\n\n    accuracy                           0.84       179\n   macro avg       0.83      0.82      0.83       179\nweighted avg       0.84      0.84      0.84       179\n', 'confusion_matrix': array([[98, 12],
+       [17, 52]])}
+
+Decision Tree metrics (hold-out):
+{'accuracy': 0.770949720670391, 'roc_auc': 0.7419631093544137, 'report': '              precision    recall  f1-score   support\n\n           0       0.81      0.83      0.82       110\n           1       0.71      0.68      0.70        69\n\n    accuracy                           0.77       179\n   macro avg       0.76      0.75      0.76       179\nweighted avg       0.77      0.77      0.77       179\n', 'confusion_matrix': array([[91, 19],
+       [22, 47]])}
+
+CV LR: [np.float64(0.8212290502793296), np.float64(0.8258426966292135), np.float64(0.8202247191011236), np.float64(0.8258426966292135), np.float64(0.8595505617977528)]
+CV DT: [np.float64(0.7597765363128491), np.float64(0.7584269662921348), np.float64(0.8089887640449438), np.float64(0.7528089887640449), np.float64(0.7808988764044944)]
